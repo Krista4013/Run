@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: cdfb108ea26b9b549bfbe6ecb7e83e86
+  productGUID: 1525202afc6bceb4c8546c8f7f9df595
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 3DRun
+  productName: 3D Survival
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -768,14 +768,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 3DRun
+  metroPackageName: 3D Survival
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 3DRun
+  metroApplicationDescription: 3D Survival
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -842,12 +842,12 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 7bcb359f-0523-4854-9057-355938244ff7
+  cloudProjectId: 6495c2a0-d577-41c8-a999-fd460524b5a5
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 3DRun
+  projectName: 3D Survival
   organizationId: hoorike
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
