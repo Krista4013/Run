@@ -127,4 +127,19 @@ public class PlayerController : MonoBehaviour
         Cursor.lockState = toggle ? CursorLockMode.None : CursorLockMode.Locked;
         canLock = !toggle;
     }
+
+    public void Boost(float value, float duration)
+    {
+        StartCoroutine(BoostCoroutine(value, duration));
+    }
+
+    private IEnumerator BoostCoroutine(float value, float duration)
+    {
+        float originalSpeed = movespeed;
+        movespeed *= value;
+
+        yield return new WaitForSeconds(duration);
+
+        movespeed = originalSpeed;
+    }
 }

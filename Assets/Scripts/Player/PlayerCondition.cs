@@ -44,6 +44,7 @@ public class PlayerCondition : MonoBehaviour, IDamagalbe
     {
         hunger.Add(amout);
     }
+
     public void Die()
     {
         Debug.Log("ав╬З╢ы.");

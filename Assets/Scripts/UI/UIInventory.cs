@@ -209,6 +209,9 @@ public class UIInventory : MonoBehaviour
                     case ConsumableType.Hunger:
                         condition.Eat(selectedItem.consumables[i].value);
                         break;
+                    case ConsumableType.Speed:
+                        controller.Boost(selectedItem.consumables[i].value, selectedItem.consumables[i].duration);
+                        break;
                 }
             }
             RemoveSelectedItem();
